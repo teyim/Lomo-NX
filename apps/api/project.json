@@ -91,6 +91,7 @@
         "schema": "apps/api/prisma/schema.prisma"
       }
     },
+
     "prisma-status": {
       "executor": "@nx-tools/nx-prisma:status"
     },

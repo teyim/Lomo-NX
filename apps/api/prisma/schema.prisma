@@ -31,12 +31,14 @@ model Category {
 
 // Template model
 model Template {
-  id          String     @id @default(auto()) @map("_id") @db.ObjectId
-  templateId  String     @unique
-  name        String
-  categoryId  String     @db.ObjectId
-  category    Category   @relation(fields: [categoryId], references: [id])
-  assets      Asset[]
+  id               String     @id @default(auto()) @map("_id") @db.ObjectId
+  name             String
+  width            Int
+  height           Int
+  backgroundColor  String
+  categoryId       String     @db.ObjectId
+  category         Category   @relation(fields: [categoryId], references: [id])
+  assets           Asset[]
 }
 
 // Asset model

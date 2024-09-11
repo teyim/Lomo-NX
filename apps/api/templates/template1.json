@@ -1,0 +1,123 @@
+{
+  "name": "FLAT DESIGN TEMPLATE",
+  "type": "FRAME",
+  "visible": true,
+  "x": -306,
+  "y": 2270,
+  "width": 2576,
+  "height": 1295,
+  "rotation": 0,
+  "opacity": 1,
+  "cornerRadius": 0,
+  "cornerSmoothing": 0,
+  "constraints": {
+    "horizontal": "MIN",
+    "vertical": "MIN"
+  },
+  "fills": [
+    {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.43921568989753723,
+        "g": 0.20392157137393951,
+        "b": 0.9254902005195618
+      },
+      "boundVariables": {}
+    }
+  ],
+  "strokeCap": "NONE",
+  "strokeJoin": "MITER",
+  "strokeMiterLimit": 4,
+  "strokeStyleId": "",
+  "strokeWeight": 1,
+  "category": "Simple",
+  "children": [
+    {
+      "name": "RESTARTUP",
+      "type": "TEXT",
+      "visible": true,
+      "x": 926,
+      "y": 533,
+      "width": 774,
+      "height": 160,
+      "rotation": 0,
+      "opacity": 1,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "characters": "RESTARTUP",
+      "fontSize": 128,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "fontName": {
+        "family": "Lexend",
+        "style": "Bold"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "strokeMiterLimit": 4,
+      "strokeStyleId": "",
+      "strokeWeight": 1
+    },
+    {
+      "name": "The Amazing stories of African Tech startups, all in one place.",
+      "type": "TEXT",
+      "visible": true,
+      "x": 363,
+      "y": 725,
+      "width": 1900,
+      "height": 80,
+      "rotation": 0,
+      "opacity": 1,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "characters": "The Amazing stories of African Tech startups, all in one place. ",
+      "fontSize": 64,
+      "textAlignHorizontal": "LEFT",
+      "textAlignVertical": "TOP",
+      "fontName": {
+        "family": "Lexend",
+        "style": "Regular"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "strokeCap": "NONE",
+      "strokeJoin": "MITER",
+      "strokeMiterLimit": 4,
+      "strokeStyleId": "",
+      "strokeWeight": 1
+    }
+  ]
+}
