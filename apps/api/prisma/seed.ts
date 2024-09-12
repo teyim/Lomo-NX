@@ -88,6 +88,7 @@ const createTemplate = async (
         name: frameData.name,
         width: frameData.width,
         height: frameData.height,
+        img: '',
         backgroundColor: frameData.backgroundColor,
         categoryId: categoryId,
         assets: {
