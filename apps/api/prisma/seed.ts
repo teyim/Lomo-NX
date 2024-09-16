@@ -88,7 +88,7 @@ const createTemplate = async (
         name: frameData.name,
         width: frameData.width,
         height: frameData.height,
-        img: '',
+        img: 'https://lomo-bucket.s3.eu-north-1.amazonaws.com/Frame+5.jpg',
         backgroundColor: frameData.backgroundColor,
         categoryId: categoryId,
         assets: {
